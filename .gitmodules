@@ -1,0 +1,3 @@
+[submodule "power5hell"]
+	path = power5hell
+	url = https://github.com/5nik7/power5hell.git
