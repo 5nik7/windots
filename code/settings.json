@@ -3,8 +3,8 @@
 	"editor.inlineSuggest.enabled": true,
 	"editor.minimap.enabled": false,
 	"window.titleBarStyle": "custom",
-	"editor.fontFamily": "JetBrainsMono Nerd Font Mono, Hack Nerd Font, Consolas",
-	"editor.fontSize": 15,
+	"editor.fontFamily": "JetBrainsMono Nerd Font, Hack Nerd Font, Consolas",
+	"editor.fontSize": 16,
 	"editor.fontLigatures": true,
 	"editor.wordWrap": "on",
 	"breadcrumbs.enabled": false,
@@ -15,9 +15,9 @@
 	"editor.minimap.renderCharacters": false,
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.cursorStyle": "line",
-	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontSize": 16,
 	"terminal.integrated.letterSpacing": 0,
-	"markdown.preview.fontSize": 15,
+	"markdown.preview.fontSize": 16,
 	"editor.lineHeight": 24,
 	"editor.letterSpacing": 0,
 	"terminal.integrated.profiles.windows": {
@@ -59,7 +59,6 @@
 	"git.enableSmartCommit": true,
 	"github.copilot.chat.welcomeMessage": "never",
 	"editor.accessibilitySupport": "off",
-	"window.zoomLevel": -1,
 	"go.showWelcome": false,
 	"evenBetterToml.formatter.alignEntries": true,
 	"evenBetterToml.formatter.indentEntries": true,
@@ -89,7 +88,8 @@
 	"color-highlight.matchRgbWithNoFunction": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.defaultColorDecorators": true,
-	"workbench.colorTheme": "Wal Bordered"
+	"workbench.colorTheme": "Wal Bordered",
+	"window.zoomLevel": -1.5
 	// "workbench.colorCustomizations": {
 	// 	"activityBar.background": "#141c31",
 	// 	"editorGutter.background": "#0f172a",
