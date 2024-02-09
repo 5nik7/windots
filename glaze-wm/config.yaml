@@ -1,6 +1,6 @@
 general:
  # Whether to automatically focus windows underneath the cursor.
- focus_follows_cursor: true
+ focus_follows_cursor: false
 
  # Whether to jump the cursor between windows focused by the WM.
  cursor_follows_focus: false
@@ -25,85 +25,84 @@ general:
 
 gaps:
  # Gap between adjacent windows.
- inner_gap: '10px'
+ inner_gap: '15px'
 
  # Gap between windows and the screen edge.
- outer_gap: '10px'
+ outer_gap: '15px'
 
 # Highlight active/inactive windows with a colored border.
 # ** Exclusive to Windows 11 due to API limitations.
 focus_borders:
  active:
   enabled: true
-  color: '#6188FF'
+  color: '#132d81'
 
  inactive:
   enabled: true
-  color: '#1a2444'
+  color: '#161E39'
 
 bar:
  height: '30px'
  position: 'top'
  opacity: 1.0
- background: '#161E39ee'
+ background: '#161E39'
  foreground: '#D1EAFF'
  font_family: 'JetBrainsMono Nerd Font Propo'
  font_size: '12px'
- font_weight: '450'
- padding: '5px 6px'
+ font_weight: '500'
+ padding: '2px 2px'
  offset_x: '0'
  offset_y: '0'
  border_radius: '0'
  components_left:
   - type: 'workspaces'
-    focused_workspace_background: '#313b76'
-    focused_workspace_foreground: '#5EE7FF'
-    displayed_workspace_background: '#141a30'
+    focused_workspace_background: 'transparent'
+    # focused_workspace_background: '#313b76'
+    focused_workspace_foreground: '#aac5fc '
+    displayed_workspace_background: 'transparent'
     default_workspace_background: 'transparent'
-    default_workspace_foreground: '#607391'
+    default_workspace_foreground: '#455f97'
  components_center:
   - type: 'window title'
+    foreground: '#8aaef8'
  components_right:
   - type: 'cpu'
-    label: 'CPU: {percent_usage}%'
+    label: "<attr fw='300' fs='14'> {percent_usage}%</attr>"
     refresh_interval_ms: 1000
-    margin: '0 5px 0 0'
-    padding: '0 8px'
-    background: '#2d3c7500'
-    foreground: '#4FFFDC'
-  - type: 'memory'
-    label: 'RAM: {percent_usage}%'
-    refresh_interval_ms: 1000
-    margin: '0 5px 0 0'
-    padding: '0 8px'
-    background: '#2d3c7500'
-    foreground: '#5EE7FF'
-  - type: 'gpu'
-    label: 'GPU: {percent_usage}%'
-    refresh_interval_ms: 1000
-    margin: '0 5px 0 0'
-    padding: '0 8px'
-    background: '#2d3c7500'
+    margin: '0 3px'
+    padding: '4px 8px'
+    background: 'transparent'
+    # background: '#33337d'
     foreground: '#6188FF'
-  - type: 'network'
-    label_no_internet: 'NC'
-    label_ethernet: 'Eth'
-    label_wifi_strength_0: 'WiFi: 0%'
-    label_wifi_strength_25: 'WiFi: 25%'
-    label_wifi_strength_50: 'WiFi: 50%'
-    label_wifi_strength_75: 'WiFi: 75%'
-    label_wifi_strength_100: 'WiFi: 100%'
-  - type: 'tiling direction'
-    label_horizontal: '⮂'
-    label_vertical: '⮁'
-    background: '#303c6399'
-    margin: '0 10px'
-    padding: '0 8px'
-  - type: 'binding mode'
-    background: '#303c6399'
-    margin: '0 4px 0 0'
-    padding: '0 8px'
+  - type: 'memory'
+    label: ' {percent_usage}%'
+    refresh_interval_ms: 1000
+    margin: '0 3px'
+    padding: '4px 8px'
+    background: 'transparent'
+    # background: '#33337d'
+    foreground: '#6188FF'
+  - type: 'gpu'
+    label: ' {percent_usage}%'
+    refresh_interval_ms: 1000
+    margin: '0 3px'
+    padding: '4px 8px'
+    background: 'transparent'
+    # background: '#33337d'
+    foreground: '#6188FF'
+  # - type: 'network'
+  #   label_no_internet: 'NC'
+  #   label_ethernet: 'Eth'
+  #   label_wifi_strength_0: 'WiFi: 0%'
+  #   label_wifi_strength_25: 'WiFi: 25%'
+  #   label_wifi_strength_50: 'WiFi: 50%'
+  #   label_wifi_strength_75: 'WiFi: 75%'
+  #   label_wifi_strength_100: 'WiFi: 100%'
   - type: 'weather'
+    margin: '0 2px'
+    padding: '4px 8px'
+    background: 'transparent'
+    foreground: '#aac5fc'
     latitude: 46.6021
     longitude: -120.5059
     label: '{temperature_fahrenheit}°F'
@@ -117,7 +116,26 @@ bar:
     label_snow_flake: '❄️ {temperature_fahrenheit}°F'
     label_thunderstorm: '⚡ {temperature_fahrenheit}°F'
     label_cloud: '☁️ {temperature_fahrenheit}°F'
-    margin: '0 4px 0 0'
+  - type: 'tiling direction'
+    #  󰓡 󰿢 󰿤  
+    # label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='100' fs='20'>󱋱</attr>"
+    # label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='100' fs='20'>󱋰</attr>"
+    label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#6f6fe6' fw='100' fs='22'></attr>"
+    label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#6f6fe6' fw='100' fs='22'></attr>"
+
+    background: '#33337d'
+    padding: '2px 4px'
+    margin: '0 2px'
+  - type: 'binding mode'
+    label: "<attr fs='20'>󰁌</attr>"
+    # label: "<attr fs='20'></attr>"
+    # label: "<attr ff='Hundred Ligatture' fg='#0f152d' fw='200' fs='13'>{binding_mode}</attr>"
+    # label: "<attr ff='Fuschia' fg='#0f152d' fw='200' fs='14'>{binding_mode}</attr>"
+    # label: "<attr ff='Galderglynn Titling' fg='#0f152d' fw='500' fs='13'>{binding_mode}</attr>"
+    background: '#6484ff'
+    foreground: '#0f152d'
+    margin: '0 2px'
+    padding: '4px 8px'
   # - type: 'clock'
   # Documentation on formatting date/time string:
   # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
@@ -142,6 +160,15 @@ window_rules:
  - command: 'ignore'
    match_process_name: '/Taskmgr|ScreenClippingHost/'
 
+ - command: 'set floating'
+   match_process_name: 'msrdc'
+
+ - command: 'set floating'
+   match_process_name: 'fontview'
+
+ #  - command: 'ignore'
+ #    match_process_name: 'StartAllBackCfg'
+
  # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
  - command: 'set floating'
    match_class_name: '#32770'
@@ -157,7 +184,7 @@ window_rules:
    match_process_name: 'steam'
 
  - command: 'set floating'
-   match_process_name: 'WindowsTerminal.exe'
+   match_process_name: 'StartAllBackCfg'
 
 binding_modes:
  - name: 'resize'
@@ -237,7 +264,7 @@ keybindings:
 
  # Kill GlazeWM process safely.
  - command: 'exit wm'
-   binding: 'Alt+Shift+E'
+   binding: 'Alt+Shift+Q'
 
  # Re-evaluate configuration file.
  - command: 'reload config'
@@ -277,16 +304,6 @@ keybindings:
    binding: 'Alt+8'
  - command: 'focus workspace 9'
    binding: 'Alt+9'
-
- # Move focused workspace to a monitor in a given direction.
- - command: 'move workspace left'
-   binding: 'Alt+A'
- - command: 'move workspace right'
-   binding: 'Alt+F'
- - command: 'move workspace up'
-   binding: 'Alt+D'
- - command: 'move workspace down'
-   binding: 'Alt+S'
 
  # Move focused window to a workspace defined in `workspaces` config.
  - commands: ['move to workspace 1', 'focus workspace 1']

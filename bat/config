@@ -2,5 +2,5 @@
 --wrap="never"
 --style="plain"
 --color="always"
---theme="Catppuccin-mocha"
+--theme="Dream"
 --italic-text="always"

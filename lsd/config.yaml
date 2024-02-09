@@ -10,22 +10,22 @@ classic: false
 # layout.
 # Possible values: permission, user, group, context, size, date, name, inode, links, git
 blocks:
-  - permission
-  - git
-  - name
+ - permission
+ - git
+ - name
 
 # == Color ==
 # This has various color options. (Will be expanded in the future.)
 color:
-  # When to colorize the output.
-  # When "classic" is set, this is set to "never".
-  # Possible values: never, auto, always
-  when: auto
-  # How to colorize the output.
-  # When "classic" is set, this is set to "no-color".
-  # Possible values: default, custom
-  # When "custom" is set, lsd will look in the config directory for `colors.yaml`.
-  theme: custom
+ # When to colorize the output.
+ # When "classic" is set, this is set to "never".
+ # Possible values: never, auto, always
+ when: auto
+ # How to colorize the output.
+ # When "classic" is set, this is set to "no-color".
+ # Possible values: default, custom
+ # When "custom" is set, lsd will look in the config directory for `colors.yaml`.
+ theme: custom
 
 # == Date ==
 # This specifies the date format for the date column. The freeform format
@@ -43,20 +43,20 @@ dereference: false
 # == Display ==
 # What items to display. Do not specify this for the default behavior.
 # Possible values: all, almost-all, directory-only
-# display: all
+display: almost-all
 
 # == Icons ==
 icons:
-  # When to use icons.
-  # When "classic" is set, this is set to "never".
-  # Possible values: always, auto, never
-  when: always
-  # Which icon theme to use.
-  # Possible values: fancy, unicode
-  theme: fancy
-  # Separator between icon and the name
-  # Default to 1 space
-  separator: "  "
+ # When to use icons.
+ # When "classic" is set, this is set to "never".
+ # Possible values: always, auto, never
+ when: always
+ # Which icon theme to use.
+ # Possible values: fancy, unicode
+ theme: fancy
+ # Separator between icon and the name
+ # Default to 1 space
+ separator: '  '
 
 # == Ignore Globs ==
 # A list of globs to ignore when listing.
@@ -76,12 +76,12 @@ layout: oneline
 
 # == Recursion ==
 recursion:
-  # Whether to enable recursion.
-  # Possible values: false, true
-  enabled: false
-  # How deep the recursion should go. This has to be a positive integer. Leave
-  # it unspecified for (virtually) infinite.
-  # depth: 3
+ # Whether to enable recursion.
+ # Possible values: false, true
+ enabled: false
+ # How deep the recursion should go. This has to be a positive integer. Leave
+ # it unspecified for (virtually) infinite.
+ # depth: 3
 
 # == Size ==
 # Specifies the format of the size column.
@@ -95,16 +95,16 @@ permission: rwx
 
 # == Sorting ==
 sorting:
-  # Specify what to sort by.
-  # Possible values: extension, name, time, size, version
-  column: name
-  # Whether to reverse the sorting.
-  # Possible values: false, true
-  reverse: false
-  # Whether to group directories together and where.
-  # When "classic" is set, this is set to "none".
-  # Possible values: first, last, none
-  dir-grouping: first
+ # Specify what to sort by.
+ # Possible values: extension, name, time, size, version
+ column: name
+ # Whether to reverse the sorting.
+ # Possible values: false, true
+ reverse: false
+ # Whether to group directories together and where.
+ # When "classic" is set, this is set to "none".
+ # Possible values: first, last, none
+ dir-grouping: first
 
 # == No Symlink ==
 # Whether to omit showing symlink targets
@@ -123,7 +123,7 @@ hyperlink: never
 
 # == Symlink arrow ==
 # Specifies how the symlink arrow display, chars in both ascii and utf8
-symlink-arrow: 󰜴
+symlink-arrow: 󱦰
 
 # == Header ==
 # Whether to display block headers.
