@@ -47,9 +47,9 @@ bar:
  opacity: 1.0
  background: '#161E39'
  foreground: '#D1EAFF'
- font_family: 'JetBrainsMono Nerd Font Propo'
+ font_family: 'JetBrainsMono Nerd Font Mono'
  font_size: '12px'
- font_weight: '500'
+ font_weight: '400'
  padding: '2px 2px'
  offset_x: '0'
  offset_y: '0'
@@ -67,7 +67,7 @@ bar:
     foreground: '#8aaef8'
  components_right:
   - type: 'cpu'
-    label: "<attr fw='300' fs='14'> {percent_usage}%</attr>"
+    label: " <attr ff='Cousine Nerd Font Propo' fw='450' fs='15'>{percent_usage}%</attr>"
     refresh_interval_ms: 1000
     margin: '0 3px'
     padding: '4px 8px'
@@ -83,7 +83,7 @@ bar:
     # background: '#33337d'
     foreground: '#6188FF'
   - type: 'gpu'
-    label: ' {percent_usage}%'
+    label: '󰘚 {percent_usage}%'
     refresh_interval_ms: 1000
     margin: '0 3px'
     padding: '4px 8px'
@@ -117,24 +117,25 @@ bar:
     label_thunderstorm: '⚡ {temperature_fahrenheit}°F'
     label_cloud: '☁️ {temperature_fahrenheit}°F'
   - type: 'tiling direction'
-    #  󰓡 󰿢 󰿤  
+    label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='400' fs='18'>󰝡</attr>"
+    label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='400' fs='18'>󰕏</attr>"
+    # label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='400' fs='16'></attr>"
+    # label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='400' fs='16'></attr>"
     # label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='100' fs='20'>󱋱</attr>"
     # label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#5EE7FF' fw='100' fs='20'>󱋰</attr>"
-    label_horizontal: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#6f6fe6' fw='100' fs='22'></attr>"
-    label_vertical: "<attr ff='JetBrainsMono Nerd Font Propo' fg='#6f6fe6' fw='100' fs='22'></attr>"
-
-    background: '#33337d'
-    padding: '2px 4px'
-    margin: '0 2px'
+    background: 'transparent'
+    margin: '0 3px'
+    padding: '4px 8px'
   - type: 'binding mode'
+    # label: "<attr fs='20'>󰘖</attr>"
     label: "<attr fs='20'>󰁌</attr>"
     # label: "<attr fs='20'></attr>"
     # label: "<attr ff='Hundred Ligatture' fg='#0f152d' fw='200' fs='13'>{binding_mode}</attr>"
     # label: "<attr ff='Fuschia' fg='#0f152d' fw='200' fs='14'>{binding_mode}</attr>"
     # label: "<attr ff='Galderglynn Titling' fg='#0f152d' fw='500' fs='13'>{binding_mode}</attr>"
-    background: '#6484ff'
-    foreground: '#0f152d'
-    margin: '0 2px'
+    background: 'transparent'
+    foreground: '#FF4F9E'
+    margin: '0 3px'
     padding: '4px 8px'
   # - type: 'clock'
   # Documentation on formatting date/time string:
