@@ -1,0 +1,27 @@
+{
+  "wallpaper": "C:\\wallpapers\\dream.jpg",
+  "alpha": "100",
+  "special": {
+    "background": "#161E39",
+    "foreground": "#D1EAFF",
+    "cursor": "#6e45ff"
+  },
+  "colors": {
+    "color0": "#1D2C4A",
+    "color1": "#FF4F9E",
+    "color2": "#4FFFDC",
+    "color3": "#FFC0A1",
+    "color4": "#6188FF",
+    "color5": "#8A8AFF",
+    "color6": "#5EE7FF",
+    "color7": "#C4E5FF",
+    "color8": "#2B426F",
+    "color9": "#FF4F9E",
+    "color10": "#4FFFDC",
+    "color11": "#FFD5A1",
+    "color12": "#6188FF",
+    "color13": "#8A8AFF",
+    "color14": "#5EE7FF",
+    "color15": "#C4E5FF"
+  }
+}
