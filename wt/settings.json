@@ -101,7 +101,7 @@
       },
       "historySize": 12000,
       "intenseTextStyle": "bright",
-      "opacity": 80,
+      "opacity": 95,
       "padding": "10",
       "scrollbarState": "hidden",
       "suppressApplicationTitle": true,
