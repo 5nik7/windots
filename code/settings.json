@@ -3,7 +3,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
   "window.titleBarStyle": "custom",
-  "editor.fontFamily": "JetBrainsMono Nerd Font Propo, Hack Nerd Font, Gintronic Nerd Font mono, Consolas",
+  "editor.fontFamily": "JetBrainsMono Nerd Font, Hack Nerd Font, Gintronic Nerd Font mono, Consolas",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
