@@ -7,7 +7,7 @@
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "security.workspace.trust.enabled": false,
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "500",
