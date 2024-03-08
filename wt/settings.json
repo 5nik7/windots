@@ -203,6 +203,7 @@
             {
                 "guid": "{39e77ef0-bbbe-5f62-aa97-c29f09fe8089}",
                 "hidden": false,
+                "icon": "C:\\Users\\nickf\\WSL\\logos\\nixos.png",
                 "name": "nicks",
                 "source": "Windows.Terminal.Wsl"
             },
