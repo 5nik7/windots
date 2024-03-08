@@ -128,7 +128,7 @@
         [
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k",
-                "elevate": false,
+                "elevate": true,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -193,7 +193,7 @@
             },
             {
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoLogo",
-                "elevate": false,
+                "elevate": true,
                 "guid": "{b7eb2772-2128-4dcd-b904-0c8ba7b205c8}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
@@ -542,10 +542,10 @@
         },
         {
             "background": "#161E39",
-            "black": "#233259",
-            "blue": "#6183FF",
-            "brightBlack": "#2E4580",
-            "brightBlue": "#6183FF",
+            "black": "#1D2C4A",
+            "blue": "#6188FF",
+            "brightBlack": "#395691",
+            "brightBlue": "#6188FF",
             "brightCyan": "#5EE7FF",
             "brightGreen": "#4FFFDC",
             "brightPurple": "#8A8AFF",
