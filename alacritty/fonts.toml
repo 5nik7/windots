@@ -1,5 +1,5 @@
 [font]
-size = 9.5
+size = 9
 
 [font.bold]
 # family = "Cousine Nerd Font"
@@ -14,13 +14,13 @@ style = "Bold Italic"
 [font.italic]
 # family = "Cousine Nerd Font"
 family = "JetBrainsMono Nerd Font"
-style = "Italic"
+style = "Medium Italic"
 
 [font.normal]
 # family = "Cousine Nerd Font"
 family = "JetBrainsMono Nerd Font"
-style = "Regular"
+style = "Medium"
 
 [font.offset]
 x = 0
-y = 4
+y = 2

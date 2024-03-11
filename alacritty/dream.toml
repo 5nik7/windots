@@ -24,4 +24,8 @@ foreground = "#D1EAFF"
 
 [colors.selection]
 background = "#6e45ff"
-foreground = "#8cff00"
+foreground = "#D1EAFF"
+
+[colors.cursor]
+text = "#D1EAFF"
+cursor = "#6E45FF"

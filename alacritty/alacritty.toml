@@ -18,9 +18,13 @@ history = 10000
 multiplier = 3
 
 [window]
-title = "Alacritty"
 decorations = "full"
-opacity = 0.85
+opacity = 0.75
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
 
 [window.class]
 general = "Alacritty"
