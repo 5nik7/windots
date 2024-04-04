@@ -24,7 +24,9 @@
     "PowerShell": {
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": ["-NoLogo"]
+      "args": [
+        "-NoLogo"
+      ]
     },
     "Command Prompt": {
       "path": [
@@ -44,21 +46,26 @@
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
   "window.menuBarVisibility": "compact",
-  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "go.toolsManagement.autoUpdate": true,
-  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
   "[lua]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
     "editor.quickSuggestions": {
       "other": true,
       "comments": true,
       "strings": true
     },
     "editor.semanticHighlighting.enabled": true,
-    "editor.tabCompletion": "on",
-    "editor.quickSuggestionsDelay": 1,
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.tabCompletion": "on"
   },
-  "Lua.diagnostics.globals": ["vim"],
+  "[luau]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua"
+  },
   "editor.semanticHighlighting.enabled": true,
   "terminal.integrated.minimumContrastRatio": 1,
   "Lua.semantic.keyword": true,
@@ -89,7 +96,6 @@
   "evenBetterToml.taplo.bundled": false,
   "JSON-zain.json.autorefresh": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "prettier.bracketSameLine": true,
   "prettier.enableDebugLogs": true,
@@ -113,7 +119,9 @@
   "[rainmeter]": {
     "editor.formatOnSave": false
   },
-  "color-highlight.languages": ["*"],
+  "color-highlight.languages": [
+    "*"
+  ],
   "editor.renderControlCharacters": true,
   "files.trimTrailingWhitespace": true,
   "files.encoding": "utf8bom",
@@ -122,5 +130,20 @@
     "editor.formatOnSave": true
   },
   "prettier.withNodeModules": true,
-  "powershell.debugging.createTemporaryIntegratedConsole": true
+  "powershell.debugging.createTemporaryIntegratedConsole": true,
+  "Lua.completion.callSnippet": "Both",
+  "Lua.diagnostics.globals": [
+    "vim"
+  ],
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/nickf/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+  ],
+    "animations.Enabled": true,
+    "animations.Auto-Install": true,
+    "animations.CursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "Color": "#ff4f9e",
+        "TrailLength": 5
+    },
+    "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal"
 }
