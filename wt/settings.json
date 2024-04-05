@@ -1,7 +1,7 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-    "actions": 
+    "actions":
     [
         {
             "command": "unbound",
@@ -28,7 +28,7 @@
             "keys": "alt+enter"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -40,7 +40,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -53,7 +53,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "quakeMode"
             },
@@ -85,15 +85,15 @@
     "initialRows": 60,
     "launchMode": "default",
     "minimizeToNotificationArea": false,
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "adjustIndistinguishableColors": "never",
             "antialiasingMode": "cleartype",
@@ -104,7 +104,7 @@
             "experimental.retroTerminalEffect": false,
             "experimental.rightClickContextMenu": true,
             "experimental.showMarksOnScrollbar": true,
-            "font": 
+            "font":
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 9.0,
@@ -112,22 +112,22 @@
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
-            "opacity": 95,
+            "opacity": 90,
             "padding": "10",
             "scrollbarState": "hidden",
             "suppressApplicationTitle": true,
-            "unfocusedAppearance": 
+            "unfocusedAppearance":
             {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Dream",
                 "intenseTextStyle": "bright",
-                "opacity": 30,
+                "opacity": 66,
                 "useAcrylic": true
             },
             "useAcrylic": true,
             "useAtlasEngine": true
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k",
@@ -261,7 +261,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#262A33",
@@ -540,7 +540,7 @@
             "yellow": "#F1FA8C"
         },
         {
-            "background": "#161E39",
+            "background": "#172141",
             "black": "#1D2C4A",
             "blue": "#6188FF",
             "brightBlack": "#395691",
@@ -1282,21 +1282,21 @@
     "startOnUserLogin": false,
     "tabWidthMode": "equal",
     "theme": "Dream",
-    "themes": 
+    "themes":
     [
         {
             "name": "Dream",
-            "tab": 
+            "tab":
             {
-                "background": "#182241FF",
+                "background": "#1a2444",
                 "iconStyle": "default",
                 "showCloseButton": "always",
-                "unfocusedBackground": "#11192D00"
+                "unfocusedBackground": "#161e3900"
             },
-            "tabRow": 
+            "tabRow":
             {
-                "background": "#161F3BFF",
-                "unfocusedBackground": "#14213BFF"
+                "background": "#1a2444f4",
+                "unfocusedBackground": "#1a2444f4"
             }
         }
     ],

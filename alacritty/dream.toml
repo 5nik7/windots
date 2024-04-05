@@ -1,5 +1,5 @@
 [colors.bright]
-black = "#2B426F"
+black = "#395691"
 blue = "#6188FF"
 cyan = "#5EE7FF"
 green = "#4FFFDC"
@@ -19,7 +19,7 @@ white = "#C4E5FF"
 yellow = "#FFC0A1"
 
 [colors.primary]
-background = "#161E39"
+background = "#1a2444"
 foreground = "#D1EAFF"
 
 [colors.selection]

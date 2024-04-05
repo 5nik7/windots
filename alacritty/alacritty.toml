@@ -19,7 +19,10 @@ multiplier = 3
 
 [window]
 decorations = "full"
-opacity = 0.75
+opacity = 0.90
+
+[selection]
+save_to_clipboard = true
 
 [cursor.style]
 shape = "Beam"
