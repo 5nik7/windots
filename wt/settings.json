@@ -1,7 +1,7 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-    "actions":
+    "actions": 
     [
         {
             "command": "unbound",
@@ -28,7 +28,7 @@
             "keys": "alt+enter"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -40,7 +40,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -53,7 +53,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "quakeMode"
             },
@@ -85,15 +85,15 @@
     "initialRows": 60,
     "launchMode": "default",
     "minimizeToNotificationArea": false,
-    "newTabMenu":
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "adjustIndistinguishableColors": "never",
             "antialiasingMode": "cleartype",
@@ -102,9 +102,8 @@
             "cursorShape": "bar",
             "experimental.autoMarkPrompts": true,
             "experimental.retroTerminalEffect": false,
-            "experimental.rightClickContextMenu": true,
             "experimental.showMarksOnScrollbar": true,
-            "font":
+            "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 9.0,
@@ -113,10 +112,10 @@
             "historySize": 12000,
             "intenseTextStyle": "bright",
             "opacity": 90,
-            "padding": "10",
+            "padding": "8",
             "scrollbarState": "hidden",
             "suppressApplicationTitle": true,
-            "unfocusedAppearance":
+            "unfocusedAppearance": 
             {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Dream",
@@ -127,7 +126,7 @@
             "useAcrylic": true,
             "useAtlasEngine": true
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k",
@@ -261,7 +260,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#262A33",
@@ -541,25 +540,25 @@
         },
         {
             "background": "#172141",
-            "black": "#1D2C4A",
-            "blue": "#6188FF",
-            "brightBlack": "#395691",
-            "brightBlue": "#6188FF",
-            "brightCyan": "#5EE7FF",
+            "black": "#3D4769",
+            "blue": "#5791FF",
+            "brightBlack": "#53618E",
+            "brightBlue": "#5791FF",
+            "brightCyan": "#3DF4FF",
             "brightGreen": "#4FFFDC",
-            "brightPurple": "#8A8AFF",
-            "brightRed": "#FF4F9E",
-            "brightWhite": "#C4E5FF",
+            "brightPurple": "#BEADFF",
+            "brightRed": "#FF70A7",
+            "brightWhite": "#BECEFF",
             "brightYellow": "#FFD5A1",
             "cursorColor": "#6E45FF",
-            "cyan": "#5EE7FF",
+            "cyan": "#3DF4FF",
             "foreground": "#D1EAFF",
             "green": "#4FFFDC",
             "name": "Dream",
-            "purple": "#8A8AFF",
-            "red": "#FF4F9E",
+            "purple": "#BEADFF",
+            "red": "#FF70A7",
             "selectionBackground": "#6E45FF",
-            "white": "#C4E5FF",
+            "white": "#BECEFF",
             "yellow": "#FFC0A1"
         },
         {
@@ -1282,21 +1281,21 @@
     "startOnUserLogin": false,
     "tabWidthMode": "equal",
     "theme": "Dream",
-    "themes":
+    "themes": 
     [
         {
             "name": "Dream",
-            "tab":
+            "tab": 
             {
-                "background": "#1a2444",
+                "background": "#1A2444FF",
                 "iconStyle": "default",
                 "showCloseButton": "always",
-                "unfocusedBackground": "#161e3900"
+                "unfocusedBackground": "#161E3900"
             },
-            "tabRow":
+            "tabRow": 
             {
-                "background": "#1a2444f4",
-                "unfocusedBackground": "#1a2444f4"
+                "background": "#1A2444F4",
+                "unfocusedBackground": "#1A2444F4"
             }
         }
     ],
