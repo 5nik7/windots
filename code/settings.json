@@ -145,5 +145,8 @@
         "Color": "#ff4f9e",
         "TrailLength": 5
     },
-    "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal"
+    "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

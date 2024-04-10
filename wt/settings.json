@@ -107,12 +107,12 @@
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 9.0,
-                "weight": "normal"
+                "weight": "medium"
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
             "opacity": 90,
-            "padding": "8",
+            "padding": "10",
             "scrollbarState": "hidden",
             "suppressApplicationTitle": true,
             "unfocusedAppearance": 
@@ -540,25 +540,25 @@
         },
         {
             "background": "#172141",
-            "black": "#3D4769",
-            "blue": "#5791FF",
-            "brightBlack": "#53618E",
-            "brightBlue": "#5791FF",
+            "black": "#394764",
+            "blue": "#8AABFF",
+            "brightBlack": "#536891",
+            "brightBlue": "#8AABFF",
             "brightCyan": "#3DF4FF",
             "brightGreen": "#4FFFDC",
             "brightPurple": "#BEADFF",
             "brightRed": "#FF70A7",
-            "brightWhite": "#BECEFF",
+            "brightWhite": "#CDE7FA",
             "brightYellow": "#FFD5A1",
             "cursorColor": "#6E45FF",
             "cyan": "#3DF4FF",
-            "foreground": "#D1EAFF",
+            "foreground": "#CDE8FA",
             "green": "#4FFFDC",
             "name": "Dream",
             "purple": "#BEADFF",
             "red": "#FF70A7",
             "selectionBackground": "#6E45FF",
-            "white": "#BECEFF",
+            "white": "#CDE8FA",
             "yellow": "#FFC0A1"
         },
         {
