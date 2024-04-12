@@ -107,7 +107,7 @@
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 10.0,
-                "weight": "medium"
+                "weight": "normal"
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
