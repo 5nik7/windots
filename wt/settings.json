@@ -106,7 +106,7 @@
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 9.0,
+                "size": 10.0,
                 "weight": "medium"
             },
             "historySize": 12000,
@@ -540,10 +540,10 @@
         },
         {
             "background": "#172141",
-            "black": "#394764",
-            "blue": "#8AABFF",
-            "brightBlack": "#536891",
-            "brightBlue": "#8AABFF",
+            "black": "#31466D",
+            "blue": "#6E97FF",
+            "brightBlack": "#44577D",
+            "brightBlue": "#6E97FF",
             "brightCyan": "#3DF4FF",
             "brightGreen": "#4FFFDC",
             "brightPurple": "#BEADFF",
