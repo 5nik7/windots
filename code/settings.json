@@ -24,9 +24,7 @@
     "PowerShell": {
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": [
-        "-NoLogo"
-      ]
+      "args": ["-NoLogo"]
     },
     "Command Prompt": {
       "path": [
@@ -46,13 +44,9 @@
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
   "window.menuBarVisibility": "compact",
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
+  "security.allowedUNCHosts": ["wsl.localhost"],
   "go.toolsManagement.autoUpdate": true,
-  "terminal.integrated.commandsToSkipShell": [
-    "language-julia.interrupt"
-  ],
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
   "[lua]": {
     "editor.defaultFormatter": "JohnnyMorganz.stylua",
     "editor.quickSuggestions": {
@@ -86,7 +80,9 @@
   "evenBetterToml.schema.links": true,
   "evenBetterToml.semanticTokens": true,
   "files.associations": {
-    "*.toml": "toml"
+    "*.toml": "toml",
+    "*.lua": "lua",
+    "*.json": "jsonc"
   },
   "evenBetterToml.schema.catalogs": [
     "https://www.schemastore.org/api/json/catalog.json",
@@ -94,7 +90,6 @@
   ],
   "evenBetterToml.taplo.configFile.enabled": false,
   "evenBetterToml.taplo.bundled": false,
-  "JSON-zain.json.autorefresh": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "prettier.bracketSameLine": true,
@@ -119,9 +114,7 @@
   "[rainmeter]": {
     "editor.formatOnSave": false
   },
-  "color-highlight.languages": [
-    "*"
-  ],
+  "color-highlight.languages": ["*"],
   "editor.renderControlCharacters": true,
   "files.trimTrailingWhitespace": true,
   "files.encoding": "utf8bom",
@@ -132,21 +125,24 @@
   "prettier.withNodeModules": true,
   "powershell.debugging.createTemporaryIntegratedConsole": true,
   "Lua.completion.callSnippet": "Both",
-  "Lua.diagnostics.globals": [
-    "vim"
-  ],
+  "Lua.diagnostics.globals": ["vim"],
   "vscode_custom_css.imports": [
     "file:///c:/Users/nickf/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
   ],
-    "animations.Enabled": true,
-    "animations.Auto-Install": true,
-    "animations.CursorAnimation": true,
-    "animations.CursorAnimationOptions": {
-        "Color": "#ff4f9e",
-        "TrailLength": 5
-    },
-    "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal",
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "animations.Enabled": false,
+  "animations.Auto-Install": true,
+  "animations.CursorAnimation": true,
+  "animations.CursorAnimationOptions": {
+    "Color": "#ff4f9e",
+    "TrailLength": 5
+  },
+  "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "animations.Install-Method": "Custom CSS and JS"
 }

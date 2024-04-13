@@ -76,7 +76,7 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{b7eb2772-2128-4dcd-b904-0c8ba7b205c8}",
+    "defaultProfile": "{2447ccef-477f-4a2d-a6a0-632952e0111d}",
     "experimental.rendering.forceFullRepaint": true,
     "experimental.rendering.software": true,
     "focusFollowMouse": false,
@@ -111,7 +111,7 @@
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
-            "opacity": 90,
+            "opacity": 93,
             "padding": "10",
             "scrollbarState": "hidden",
             "suppressApplicationTitle": true,
@@ -137,7 +137,7 @@
             },
             {
                 "commandline": "\"%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo",
-                "elevate": false,
+                "elevate": true,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
@@ -194,15 +194,6 @@
                 "source": "Git"
             },
             {
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoLogo",
-                "elevate": true,
-                "guid": "{b7eb2772-2128-4dcd-b904-0c8ba7b205c8}",
-                "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell 7",
-                "startingDirectory": "%USERPROFILE%"
-            },
-            {
                 "guid": "{39e77ef0-bbbe-5f62-aa97-c29f09fe8089}",
                 "hidden": false,
                 "icon": "C:\\Users\\nickf\\WSL\\logos\\nixos.png",
@@ -257,6 +248,24 @@
                 "hidden": false,
                 "name": "arch57",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "\"C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe\"  -NoLogo",
+                "elevate": true,
+                "guid": "{f98e91f2-de7e-4c67-a227-c0297113323f}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell 7",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "\"C:\\Program Files (x86)\\PowerShell\\7-preview\\pwsh.exe\" -NoLogo",
+                "elevate": true,
+                "guid": "{2447ccef-477f-4a2d-a6a0-632952e0111d}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
+                "name": "pwsh",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
@@ -541,24 +550,24 @@
         {
             "background": "#172141",
             "black": "#2F446E",
-            "blue": "#6E97FF",
+            "blue": "#6EA1FF",
             "brightBlack": "#4665A3",
-            "brightBlue": "#6E97FF",
-            "brightCyan": "#3DF4FF",
-            "brightGreen": "#4FFFDC",
-            "brightPurple": "#BEADFF",
-            "brightRed": "#FF70A7",
-            "brightWhite": "#CDE7FA",
+            "brightBlue": "#78A7FF",
+            "brightCyan": "#7AF8FF",
+            "brightGreen": "#6EFFE2",
+            "brightPurple": "#ABB5FF",
+            "brightRed": "#FF8AB7",
+            "brightWhite": "#C3E3FA",
             "brightYellow": "#FFD5A1",
             "cursorColor": "#6E45FF",
             "cyan": "#3DF4FF",
-            "foreground": "#CDE8FA",
+            "foreground": "#CFEBFF",
             "green": "#4FFFDC",
             "name": "Dream",
-            "purple": "#BEADFF",
+            "purple": "#A6B0FF",
             "red": "#FF70A7",
             "selectionBackground": "#6E45FF",
-            "white": "#CDE8FA",
+            "white": "#BFDFF5",
             "yellow": "#FFC0A1"
         },
         {
