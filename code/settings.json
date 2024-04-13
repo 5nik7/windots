@@ -110,7 +110,7 @@
   "editor.experimentalWhitespaceRendering": "off",
   "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
   "editor.trimAutoWhitespace": false,
-  "workbench.colorTheme": "Wal Bordered",
+  "workbench.colorTheme": "base16-catppuccin-mocha",
   "[rainmeter]": {
     "editor.formatOnSave": false
   },
